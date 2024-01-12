@@ -16,5 +16,11 @@
   "env": {
     "node": true,
     "jest": true
-  }
+  },
+  "prettier/prettier": [
+    "error",
+    {
+      "endOfLine": "auto"
+    }
+  ]
 }
